@@ -1,0 +1,91 @@
+.header {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 999;
+}
+
+.header .left img {
+  height: 50px;
+  width: 100px;
+}
+
+.header .center {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(231, 231, 231);
+  padding: 6px 5px 6px 10px;
+  border-radius: 25px;
+  -webkit-box-shadow: -1px 1px 8px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 8px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 8px -5px rgba(0, 0, 0, 0.75);
+  margin-left: 200px;
+}
+
+.header .center p {
+  padding: 0px 15px;
+  border-right: 1px solid rgb(214, 214, 214);
+}
+
+.header .center .addGuest {
+  margin-left: 15px;
+  border: none;
+  background-color: white;
+  font: inherit;
+  color: rgb(146, 146, 146);
+  font-weight: 200;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.center .icon {
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 0px;
+  padding-right: 3px;
+  background-color: #fd4b51;
+  border-radius: 50%;
+  fill: white;
+}
+
+.header .right {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header .right > * {
+  margin-left: 30px;
+}
+
+.right .loginDropdown {
+  height: auto;
+  width: auto;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.loginDropdown .icon {
+  height: 35px;
+  width: 35px;
+  margin: 3px 3px;
+}
+
+.loginDropdown :first-child {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
